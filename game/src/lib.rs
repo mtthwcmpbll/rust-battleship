@@ -1,10 +1,9 @@
+mod ship;
 mod player;
 mod board;
 mod game;
 
-use game::Game;
-use board::Board;
-use board::BoardState;
+use crate::game::Game;
 
 pub fn run() {
     // create a new board
